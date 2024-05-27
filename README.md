@@ -13,9 +13,13 @@ Para ejecutar esta aplicación, necesitas:
 1. **Python 3:** Asegúrate de tener instalado Python 3 en tu sistema.
 2. **Flask:** Si no tienes Flask instalado, puedes hacerlo utilizando pip:
    ```
+   sudo yum install flask
+   ```
+
+   ```
    pip install Flask
    ```
-3. **Archivos del Proyecto:** Debes tener los siguientes archivos en el mismo directorio:
+4. **Archivos del Proyecto:** Debes tener los siguientes archivos en el mismo directorio:
    - `app.py`: Contiene el código principal de la aplicación.
    - `clases.py`: Define las clases `Empleado` y `Gerente` requeridas para el cálculo del salario.
    - `formulario.html`: Plantilla HTML para el formulario de entrada de datos.
